@@ -8,3 +8,4 @@ Thumbs.db
 *.log
 teste.csv
 data/
+__pycache__/
