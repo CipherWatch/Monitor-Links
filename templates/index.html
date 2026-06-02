@@ -43,7 +43,18 @@
     <div class="section">
       <div class="section-header">
         <span>Status atual</span>
-        <span id="checking-label" style="color:var(--blue);font-size:11px;"></span>
+        <div style="display:flex;align-items:center;gap:12px;">
+          <input
+            id="search-input"
+            type="text"
+            placeholder="🔎 Pesquisar por nome, URL ou categoria..."
+            oninput="filterTable()"
+            style="background:var(--bg);border:1px solid var(--border);border-radius:6px;
+                   padding:6px 12px;color:var(--text);font-size:13px;outline:none;width:320px;"
+          />
+          <span id="search-count" style="font-size:11px;color:var(--muted);"></span>
+          <span id="checking-label" style="color:var(--blue);font-size:11px;"></span>
+        </div>
       </div>
       <table>
         <thead>
@@ -100,6 +111,6 @@
       </div>
     </div>
   </div>
-  <script src="/static/js/app.js"></script>
+  <script src="/static/js/app.js?v=2"></script>
 </body>
 </html>
