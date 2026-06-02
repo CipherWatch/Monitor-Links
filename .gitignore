@@ -1,7 +1,5 @@
 venv/
 .venv/
-data/links.db
-data/reports/
 __pycache__/
 *.pyc
 *.pyo
@@ -9,4 +7,4 @@ __pycache__/
 Thumbs.db
 *.log
 teste.csv
-*.db
+data/
