@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monitor de Links</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+  <header>
+    <div>
+      <h1>🔍 Monitor de Links</h1>
+      <p>Monitoramento de disponibilidade em tempo real</p>
+    </div>
+    <div style="display:flex;align-items:center;gap:8px;">
+      <div class="live-badge">
+        <span class="live-dot"></span>
+        <span id="last-update">Carregando...</span>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="scheduler-bar">
+      <span style="font-size:13px;font-weight:600">⚙️ Controles</span>
+      <label>Intervalo</label>
+      <select id="interval-select" onchange="updateInterval()">
+        <option value="10">10 segundos</option>
+        <option value="30">30 segundos</option>
+        <option value="60" selected>1 minuto</option>
+        <option value="300">5 minutos</option>
+        <option value="1800">30 minutos</option>
+      </select>
+      <button class="btn-secondary" onclick="openImportModal()">📂 Importar planilha</button>
+      <button class="btn-primary" onclick="openModal()">+ Adicionar URL</button>
+      <span class="scheduler-info" id="next-check"></span>
+    </div>
+    <div class="cards">
+      <div class="card green"><div class="number" id="count-online">—</div><div class="label">Online</div></div>
+      <div class="card yellow"><div class="number" id="count-slow">—</div><div class="label">Lentos</div></div>
+      <div class="card red"><div class="number" id="count-offline">—</div><div class="label">Offline</div></div>
+      <div class="card purple"><div class="number" id="count-total">—</div><div class="label">Verificações</div></div>
+    </div>
+    <div class="section">
+      <div class="section-header">
+        <span>Status atual</span>
+        <span id="checking-label" style="color:var(--blue);font-size:11px;"></span>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>Status</th><th>Nome</th><th>Tempo</th><th>Uptime</th><th>Categoria</th><th>URL</th><th>Ação</th>
+          </tr>
+        </thead>
+        <tbody id="status-table">
+          <tr><td colspan="7" class="loading">Verificando URLs...</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="section">
+      <div class="section-header">Alertas recentes</div>
+      <div id="alerts-list"><div class="loading">Carregando alertas...</div></div>
+    </div>
+  </main>
+  <footer>Monitor de Links · Painel de controle</footer>
+  <div id="modal-overlay" class="modal-overlay" onclick="closeModal()">
+    <div class="modal" onclick="event.stopPropagation()">
+      <div class="modal-header">
+        <h2>Adicionar URL</h2>
+        <button class="modal-close" onclick="closeModal()">✕</button>
+      </div>
+      <div class="modal-body">
+        <div class="field"><label>URL</label><input id="input-url" type="url" placeholder="https://exemplo.com"/></div>
+        <div class="field"><label>Nome</label><input id="input-name" type="text" placeholder="Meu site"/></div>
+        <div class="field"><label>Categoria</label><input id="input-category" type="text" placeholder="geral" value="geral"/></div>
+        <div id="form-error" class="form-error"></div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn-secondary" onclick="closeModal()">Cancelar</button>
+        <button class="btn-primary" onclick="addUrl()">Salvar</button>
+      </div>
+    </div>
+  </div>
+  <div id="import-overlay" class="modal-overlay" onclick="closeImportModal()">
+    <div class="modal" onclick="event.stopPropagation()">
+      <div class="modal-header">
+        <h2>Importar planilha</h2>
+        <button class="modal-close" onclick="closeImportModal()">✕</button>
+      </div>
+      <div class="modal-body">
+        <p style="color:var(--muted);font-size:13px;line-height:1.6">
+          Selecione um arquivo <strong>.csv</strong>, <strong>.xlsx</strong> ou <strong>.docx</strong>.<br>
+          O arquivo deve ter as colunas <code>url</code> e <code>name</code>.
+        </p>
+        <div class="field"><label>Arquivo</label><input id="import-file" type="file" accept=".csv,.xlsx,.docx" style="color:var(--text)"/></div>
+        <div id="import-result"></div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn-secondary" onclick="closeImportModal()">Fechar</button>
+        <button class="btn-primary" onclick="importFile()">Importar</button>
+      </div>
+    </div>
+  </div>
+  <script src="/static/js/app.js"></script>
+</body>
+</html>

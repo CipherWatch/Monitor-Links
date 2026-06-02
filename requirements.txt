@@ -1,0 +1,10 @@
+aiohttp
+aiosqlite
+fastapi
+uvicorn
+jinja2
+pydantic
+rich
+openpyxl
+python-multipart
+requests

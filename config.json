@@ -1,0 +1,691 @@
+{
+  "check_interval_seconds": 10,
+  "timeout_seconds": 10,
+  "urls": [
+    {
+      "url": "https://www.google.com",
+      "name": "Google",
+      "category": "buscadores"
+    },
+    {
+      "url": "https://www.ssg.asia/",
+      "name": "www.ssg.asia",
+      "category": "importado"
+    },
+    {
+      "url": "https://www.parts5.com/",
+      "name": "www.parts5.com",
+      "category": "importado"
+    },
+    {
+      "url": "https://partsouq.com/",
+      "name": "partsouq.com",
+      "category": "importado"
+    },
+    {
+      "url": "https://www.ilcats.ru/",
+      "name": "www.ilcats.ru",
+      "category": "importado"
+    },
+    {
+      "url": "http://www.free-vin-decoder.com/",
+      "name": "www.free-vin-decoder.com",
+      "category": "importado"
+    },
+    {
+      "url": "http://mbepc.net/",
+      "name": "mbepc.net",
+      "category": "importado"
+    },
+    {
+      "url": "https://catalog.reformauto.ru/",
+      "name": "catalog.reformauto.ru",
+      "category": "importado"
+    },
+    {
+      "url": "https://toyotamarket.ru/",
+      "name": "toyotamarket.ru",
+      "category": "importado"
+    },
+    {
+      "url": "http://toylexparts.com/",
+      "name": "toylexparts.com",
+      "category": "importado"
+    },
+    {
+      "url": "https://ra.parts/",
+      "name": "ra.parts",
+      "category": "importado"
+    },
+    {
+      "url": "https://carinfo.kiev.ua/",
+      "name": "carinfo.kiev.ua",
+      "category": "importado"
+    },
+    {
+      "url": "https://www.toyodiy.com/parts/q?vin=",
+      "name": "www.toyodiy.com",
+      "category": "importado"
+    },
+    {
+      "url": "https://serviceinfo.harley-davidson.com/sip/vehicle/lookupForm",
+      "name": "serviceinfo.harley-davidson.com",
+      "category": "importado"
+    },
+    {
+      "url": "https://francecar.ru/",
+      "name": "francecar.ru",
+      "category": "importado"
+    },
+    {
+      "url": "https://auto3n.ru/catalogs",
+      "name": "auto3n.ru",
+      "category": "importado"
+    },
+    {
+      "url": "https://www.toyotacarmine.ru/",
+      "name": "www.toyotacarmine.ru",
+      "category": "importado"
+    },
+    {
+      "url": "https://vikauto53.ru/",
+      "name": "vikauto53.ru",
+      "category": "importado"
+    },
+    {
+      "url": "https://www.fordzona.sk/",
+      "name": "www.fordzona.sk",
+      "category": "importado"
+    },
+    {
+      "url": "https://www.volkswagen-minsk.by/service/maintenance-repair/tva/",
+      "name": "www.volkswagen-minsk.by",
+      "category": "importado"
+    },
+    {
+      "url": "https://www.renntech.org/images/vin_decoder/PorscheVINDecoder.html",
+      "name": "www.renntech.org",
+      "category": "importado"
+    },
+    {
+      "url": "https://mb.vin/",
+      "name": "mb.vin",
+      "category": "importado"
+    },
+    {
+      "url": "https://www.lastvin.com/",
+      "name": "www.lastvin.com",
+      "category": "importado"
+    },
+    {
+      "url": "https://www.mdecoder.com/",
+      "name": "www.mdecoder.com",
+      "category": "importado"
+    },
+    {
+      "url": "https://www.bimmer-ech.net/",
+      "name": "www.bimmer-ech.net",
+      "category": "importado"
+    },
+    {
+      "url": "https://bimmercat.com/",
+      "name": "bimmercat.com",
+      "category": "importado"
+    },
+    {
+      "url": "https://autexpert.ru/",
+      "name": "autexpert.ru",
+      "category": "importado"
+    },
+    {
+      "url": "https://ivartauto.ru/",
+      "name": "ivartauto.ru",
+      "category": "importado"
+    },
+    {
+      "url": "https://hunter-parts.ru/",
+      "name": "hunter-parts.ru",
+      "category": "importado"
+    },
+    {
+      "url": "http://argo-parts.ru/",
+      "name": "argo-parts.ru",
+      "category": "importado"
+    },
+    {
+      "url": "https://car-in-decoder.com/",
+      "name": "car-in-decoder.com",
+      "category": "importado"
+    },
+    {
+      "url": "https://trezon.ru/",
+      "name": "trezon.ru",
+      "category": "importado"
+    },
+    {
+      "url": "https://autoostrov.by",
+      "name": "autoostrov.by",
+      "category": "importado"
+    },
+    {
+      "url": "http://www.toyotaspares.ru/",
+      "name": "www.toyotaspares.ru",
+      "category": "importado"
+    },
+    {
+      "url": "https://www.proxyparts.com/",
+      "name": "www.proxyparts.com",
+      "category": "importado"
+    },
+    {
+      "url": "https://parts.toyotairan.com/",
+      "name": "parts.toyotairan.com",
+      "category": "importado"
+    },
+    {
+      "url": "https://honda-tech.com/forums/vindecoder.php",
+      "name": "honda-tech.com",
+      "category": "importado"
+    },
+    {
+      "url": "https://osh.jaguar.com/home?brand=jaguar",
+      "name": "osh.jaguar.com",
+      "category": "importado"
+    },
+    {
+      "url": "https://vindecodervehicle.com/",
+      "name": "vindecodervehicle.com",
+      "category": "importado"
+    },
+    {
+      "url": "http://mitsubishi-autoparts.com.ua/index.php?error=vin",
+      "name": "mitsubishi-autoparts.com.ua",
+      "category": "importado"
+    },
+    {
+      "url": "https://vinvaquero.com/",
+      "name": "vinvaquero.com",
+      "category": "importado"
+    },
+    {
+      "url": "http://www.yiparts.com/vin?keyword=",
+      "name": "www.yiparts.com",
+      "category": "importado"
+    },
+    {
+      "url": "https://mb-teilekatalog.info/view_DatacardAction.php?lang=&vin=",
+      "name": "mb-teilekatalog.info",
+      "category": "importado"
+    },
+    {
+      "url": "https://infotracer.com/?search=vin",
+      "name": "infotracer.com",
+      "category": "importado"
+    },
+    {
+      "url": "https://parts.ford.com/",
+      "name": "parts.ford.com",
+      "category": "importado"
+    },
+    {
+      "url": "https://www.bmwautoparts.net/",
+      "name": "www.bmwautoparts.net",
+      "category": "importado"
+    },
+    {
+      "url": "https://www.bmwstore.pl/pl/",
+      "name": "www.bmwstore.pl",
+      "category": "importado"
+    },
+    {
+      "url": "http://pl.bmwfans.info/",
+      "name": "pl.bmwfans.info",
+      "category": "importado"
+    },
+    {
+      "url": "https://bimmervin.com/en",
+      "name": "bimmervin.com",
+      "category": "importado"
+    },
+    {
+      "url": "https://justbrake.com/store/vin-lookup/",
+      "name": "justbrake.com",
+      "category": "importado"
+    },
+    {
+      "url": "https://www.fordpro.com/en-us/fleet-vehicles/vin-decoder-and-guides/",
+      "name": "www.fordpro.com",
+      "category": "importado"
+    },
+    {
+      "url": "https://www.fordvinlookup.com/",
+      "name": "www.fordvinlookup.com",
+      "category": "importado"
+    },
+    {
+      "url": "http://vin-ford.com/",
+      "name": "vin-ford.com",
+      "category": "importado"
+    },
+    {
+      "url": "https://teslavin.info/",
+      "name": "teslavin.info",
+      "category": "importado"
+    },
+    {
+      "url": "https://www.coceurope.eu/ja",
+      "name": "www.coceurope.eu",
+      "category": "importado"
+    },
+    {
+      "url": "https://www.fordpartsgiant.com/vin-decoder.html",
+      "name": "www.fordpartsgiant.com",
+      "category": "importado"
+    },
+    {
+      "url": "https://www.carfab.com/",
+      "name": "www.carfab.com",
+      "category": "importado"
+    },
+    {
+      "url": "https://www.autopartsprime.com/",
+      "name": "www.autopartsprime.com",
+      "category": "importado"
+    },
+    {
+      "url": "https://www.autozone.com/vin-decoder",
+      "name": "www.autozone.com",
+      "category": "importado"
+    },
+    {
+      "url": "https://www.heavytruckparts.net/vin_decode.php",
+      "name": "www.heavytruckparts.net",
+      "category": "importado"
+    },
+    {
+      "url": "https://enginepass.com/vin-decoder/",
+      "name": "enginepass.com",
+      "category": "importado"
+    },
+    {
+      "url": "https://emexdwc.ae/",
+      "name": "emexdwc.ae",
+      "category": "importado"
+    },
+    {
+      "url": "https://www.ford-trucks.com/forums/vindecoder.php?vin=",
+      "name": "www.ford-trucks.com",
+      "category": "importado"
+    },
+    {
+      "url": "https://czesci.bmwsklep.pl/",
+      "name": "czesci.bmwsklep.pl",
+      "category": "importado"
+    },
+    {
+      "url": "https://vinformer.su/",
+      "name": "vinformer.su",
+      "category": "importado"
+    },
+    {
+      "url": "https://carreta.ru/",
+      "name": "carreta.ru",
+      "category": "importado"
+    },
+    {
+      "url": "https://www.toyotacarmine.ru/zapchasti-toyota?vin=",
+      "name": "www.toyotacarmine.ru",
+      "category": "importado"
+    },
+    {
+      "url": "https://www.parts-honda.uk/",
+      "name": "www.parts-honda.uk",
+      "category": "importado"
+    },
+    {
+      "url": "https://www.elcats.ru/",
+      "name": "www.elcats.ru",
+      "category": "importado"
+    },
+    {
+      "url": "https://www.amayama.com/em",
+      "name": "www.amayama.com",
+      "category": "importado"
+    },
+    {
+      "url": "https://laximo.zzap.ru/index.php?task=catalogs",
+      "name": "laximo.zzap.ru",
+      "category": "importado"
+    },
+    {
+      "url": "https://app.autoxp.ru/catv2/model.aspx?mark=chevrolet&salerind=159&customerind=0",
+      "name": "app.autoxp.ru",
+      "category": "importado"
+    },
+    {
+      "url": "https://autocode.ru/",
+      "name": "autocode.ru",
+      "category": "importado"
+    },
+    {
+      "url": "https://autoparts.ru/",
+      "name": "autoparts.ru",
+      "category": "importado"
+    },
+    {
+      "url": "https://nemigaparts.com/cat_spares/",
+      "name": "nemigaparts.com",
+      "category": "importado"
+    },
+    {
+      "url": "https://armtek.ru/",
+      "name": "armtek.ru",
+      "category": "importado"
+    },
+    {
+      "url": "https://mb-teilekatalog.info/",
+      "name": "mb-teilekatalog.info",
+      "category": "importado"
+    },
+    {
+      "url": "https://www.autodoc.ru/",
+      "name": "www.autodoc.ru",
+      "category": "importado"
+    },
+    {
+      "url": "https://texkom.ru/",
+      "name": "texkom.ru",
+      "category": "importado"
+    },
+    {
+      "url": "https://www.autospares.lv/",
+      "name": "www.autospares.lv",
+      "category": "importado"
+    },
+    {
+      "url": "https://www.autocompas.ru/",
+      "name": "www.autocompas.ru",
+      "category": "importado"
+    },
+    {
+      "url": "https://ixora-auto.ru/",
+      "name": "ixora-auto.ru",
+      "category": "importado"
+    },
+    {
+      "url": "https://all4car.com.ua/",
+      "name": "all4car.com.ua",
+      "category": "importado"
+    },
+    {
+      "url": "https://apex.ru/",
+      "name": "apex.ru",
+      "category": "importado"
+    },
+    {
+      "url": "https://acat.online/catalogs",
+      "name": "acat.online",
+      "category": "importado"
+    },
+    {
+      "url": "http://bmwfans.info/",
+      "name": "bmwfans.info",
+      "category": "importado"
+    },
+    {
+      "url": "http://carcats.ru/",
+      "name": "carcats.ru",
+      "category": "importado"
+    },
+    {
+      "url": "https://www.avz.ru/",
+      "name": "www.avz.ru",
+      "category": "importado"
+    },
+    {
+      "url": "https://oeparts24.com/catalogues/opel",
+      "name": "oeparts24.com",
+      "category": "importado"
+    },
+    {
+      "url": "https://eper.fiatforum.com/",
+      "name": "eper.fiatforum.com",
+      "category": "importado"
+    },
+    {
+      "url": "http://exlegia-auto.ru/hyundai/",
+      "name": "exlegia-auto.ru",
+      "category": "importado"
+    },
+    {
+      "url": "http://gmsklad.ru/",
+      "name": "gmsklad.ru",
+      "category": "importado"
+    },
+    {
+      "url": "http://partsfan.com/",
+      "name": "partsfan.com",
+      "category": "importado"
+    },
+    {
+      "url": "http://www.drive.by/spare/",
+      "name": "www.drive.by",
+      "category": "importado"
+    },
+    {
+      "url": "http://www.hondaworld.ru/",
+      "name": "www.hondaworld.ru",
+      "category": "importado"
+    },
+    {
+      "url": "http://www.japancats.ru/",
+      "name": "www.japancats.ru",
+      "category": "importado"
+    },
+    {
+      "url": "http://www.japan-parts.eu/",
+      "name": "www.japan-parts.eu",
+      "category": "importado"
+    },
+    {
+      "url": "http://www.jimellismazdaparts.com/",
+      "name": "www.jimellismazdaparts.com",
+      "category": "importado"
+    },
+    {
+      "url": "http://www.megazip.ru/zapchasti-dlya-avtomobilej/honda",
+      "name": "www.megazip.ru",
+      "category": "importado"
+    },
+    {
+      "url": "http://www.nissan-rus.ru/",
+      "name": "www.nissan-rus.ru",
+      "category": "importado"
+    },
+    {
+      "url": "http://www.parts.ru/",
+      "name": "www.parts.ru",
+      "category": "importado"
+    },
+    {
+      "url": "http://www.ssangyong.pro/",
+      "name": "www.ssangyong.pro",
+      "category": "importado"
+    },
+    {
+      "url": "https://webautocats.com/etka/",
+      "name": "webautocats.com",
+      "category": "importado"
+    },
+    {
+      "url": "https://zzap.acat.online/catalogs/CARS_FOREIGN",
+      "name": "zzap.acat.online",
+      "category": "importado"
+    },
+    {
+      "url": "https://auto1.by/",
+      "name": "auto1.by",
+      "category": "importado"
+    },
+    {
+      "url": "https://eshop.elit.ua/",
+      "name": "eshop.elit.ua",
+      "category": "importado"
+    },
+    {
+      "url": "https://www.tascaparts.com/",
+      "name": "www.tascaparts.com",
+      "category": "importado"
+    },
+    {
+      "url": "https://www.megazip.net/",
+      "name": "www.megazip.net",
+      "category": "importado"
+    },
+    {
+      "url": "https://koreanaparts.ru/",
+      "name": "koreanaparts.ru",
+      "category": "importado"
+    },
+    {
+      "url": "https://exist.ae/",
+      "name": "exist.ae",
+      "category": "importado"
+    },
+    {
+      "url": "https://vinanalytics.com/",
+      "name": "vinanalytics.com",
+      "category": "importado"
+    },
+    {
+      "url": "https://ford-esklep.pl/",
+      "name": "ford-esklep.pl",
+      "category": "importado"
+    },
+    {
+      "url": "https://www.volkswagen.pl/pl/serwis-akcesoria-i-aktualizacje/informacje-o-twoim-samochodzie/vin-check.html",
+      "name": "www.volkswagen.pl",
+      "category": "importado"
+    },
+    {
+      "url": "https://ucob.ru/",
+      "name": "ucob.ru",
+      "category": "importado"
+    },
+    {
+      "url": "https://zap-pro.ru/",
+      "name": "zap-pro.ru",
+      "category": "importado"
+    },
+    {
+      "url": "https://en.17vin.com/",
+      "name": "en.17vin.com",
+      "category": "importado"
+    },
+    {
+      "url": "https://www.vinaudit.com/",
+      "name": "www.vinaudit.com",
+      "category": "importado"
+    },
+    {
+      "url": "https://mbtools.com/vin",
+      "name": "mbtools.com",
+      "category": "importado"
+    },
+    {
+      "url": "https://vincheck.me/",
+      "name": "vincheck.me",
+      "category": "importado"
+    },
+    {
+      "url": "https://goodcar.com/",
+      "name": "goodcar.com",
+      "category": "importado"
+    },
+    {
+      "url": "https://www.vinaudit.ca/",
+      "name": "www.vinaudit.ca",
+      "category": "importado"
+    },
+    {
+      "url": "https://etk.lv/lv/",
+      "name": "etk.lv",
+      "category": "importado"
+    },
+    {
+      "url": "https://www.mitsubishitechinfo.eu/vin-identification?language=es",
+      "name": "www.mitsubishitechinfo.eu",
+      "category": "importado"
+    },
+    {
+      "url": "https://5series.net/forums/vindecoder.php",
+      "name": "5series.net",
+      "category": "importado"
+    },
+    {
+      "url": "https://automig.ru/",
+      "name": "automig.ru",
+      "category": "importado"
+    },
+    {
+      "url": "https://serviceinfo.harley-davidson.com/sip/index",
+      "name": "serviceinfo.harley-davidson.com",
+      "category": "importado"
+    },
+    {
+      "url": "https://mauto.md/proverit-vin.html",
+      "name": "mauto.md",
+      "category": "importado"
+    },
+    {
+      "url": "https://toyota-vin.ru/",
+      "name": "toyota-vin.ru",
+      "category": "importado"
+    },
+    {
+      "url": "https://dodgeram.ru/vin",
+      "name": "dodgeram.ru",
+      "category": "importado"
+    },
+    {
+      "url": "https://nautoexpress.com/",
+      "name": "nautoexpress.com",
+      "category": "importado"
+    },
+    {
+      "url": "https://joesautoparts.com/",
+      "name": "joesautoparts.com",
+      "category": "importado"
+    },
+    {
+      "url": "https://bimmer.work",
+      "name": "bimmer.work",
+      "category": "importado"
+    },
+    {
+      "url": "https://www.autoparts24.nl/",
+      "name": "www.autoparts24.nl",
+      "category": "importado"
+    },
+    {
+      "url": "https://www.fitinpart.sg/",
+      "name": "www.fitinpart.sg",
+      "category": "importado"
+    },
+    {
+      "url": "https://volvoforums.com/forum/vindecoder.php?invalid=true",
+      "name": "volvoforums.com",
+      "category": "importado"
+    },
+    {
+      "url": "https://teslatap.com/vin-decoder/",
+      "name": "teslatap.com",
+      "category": "importado"
+    },
+    {
+      "url": "https://avto-moto.ru/",
+      "name": "avto-moto.ru",
+      "category": "importado"
+    }
+  ]
+}
