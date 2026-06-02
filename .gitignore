@@ -1,0 +1,12 @@
+venv/
+.venv/
+data/links.db
+data/reports/
+__pycache__/
+*.pyc
+*.pyo
+.idea/
+Thumbs.db
+*.log
+teste.csv
+*.db
